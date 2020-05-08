@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato:300,400,700');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*section{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: rgb(2, 0, 26);
+    background: linear-gradient(-45deg,
+    #2bb5bd,
+    #2196a8,
+    #1f8fa3,
+    #1a8099,
+    #177894,
+    #14708f,
+    #12698a,
+    #0f6185,
+    #0d5980,
+    #0a527a,
+    #084a75,
+    #054270,
+    #03345f,
+#001d3a);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 30s;
+    animation-iteration-count: infinite;
+}*/
+
+span.wave {
+    animation-name: wave-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate(  0.0deg) }
+     10% { transform: rotate(-10.0deg) }
+     20% { transform: rotate( 12.0deg) }
+     30% { transform: rotate(-10.0deg) }
+     40% { transform: rotate(  9.0deg) }
+     50% { transform: rotate(  0.0deg) }
+    100% { transform: rotate(  0.0deg) }
+  }
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.introduction{
+    font-size: 40pt;
+    text-align: center;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+.introduction .first_line{
+    font-size: 25pt;
+    animation: type 2s;
+}
+
+.introduction .second_line{
+    opacity: 0;
+    animation: type 0.5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    }
+
+.introduction .third_line{
+    opacity: 0;
+    font-size: 25pt;
+    animation: type 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.introduction .fourth_line{
+    position: relative;
+    opacity: 0;
+    font-size: 25pt;
+    animation: type 2s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type{
+    from{ opacity: 0; }
+    to{opacity: 1; }
+}
+
+.middle{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    opacity: 0;
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #00B3B3;
+    padding: 7px 30px;
+    overflow: hidden;
+    transition: 0.1s all ease;
+    animation: type 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+
+}
+
+.btn::before{
+    background: #00B3B3;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.btn4::before{
+    width: 100%;
+    height: 0;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.btn4:hover::before{
+    height: 380%;
+}
+
+
+
+
+
+
+
+
+html, body, h1, h2, h3, h4, h5, h6, p, li, ol, ul, pre {
+	margin: 0;
+	padding: 0;
+}
+html, body { min-height: 100%; }
+
+body {
+	background-color: #345;
+	background-image: linear-gradient(to bottom, #0009, transparent);
+	color: #eee;
+	font-family: 'Lato', sans-serif;
+	font-size: 62.5%;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+code {
+	background: #fff1;
+	font-family: 'Inconsolata', monospace;
+	padding: .2em .4em;
+}
+
+#footer {
+	background-color: #246c;
+	background-image: linear-gradient(to bottom, transparent, #0009);
+	border-top: 1px solid #fff3;
+	box-shadow: inset 0 1px 0 #fff3, 0 0 32px #000;
+	overflow: hidden;
+	padding: 8px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9001;
+}
+#footer a {
+	color: #85c6f6;
+	padding: 1em 0;
+	text-decoration: none;
+}
+#footer ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	font-size: 2em;
+	font-weight: 300;
+}
+#footer ul li {
+	padding: 0 .5em;
+}
+
+/* Appearance */
+.links {
+	background-color: #123;
+	background-image: linear-gradient(to bottom, #0003, transparent);
+	border-bottom: 1px solid #0003;
+	box-shadow: 0 0 32px #0003;
+	font-size: 2em;
+	font-weight: 300;
+}
+.links > a {
+	color: #9ab;
+	padding: .75em;
+	text-align: center;
+	text-decoration: none;
+	transition: all .5s;
+}
+.links > a:hover {
+	background: #ffffff06;
+	color: #adf;
+}
+.links > .line {
+	background: #68a;
+	height: 1px;
+	pointer-events: none;
+}
+
+/* The Magic */
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.links {
+	display: grid;
+	grid-template-columns: repeat(var(--items), 1fr);
+	position: relative;
+}
+.links > .line {
+	opacity: 0;
+	transition: all .5s;
+	position: absolute;
+	bottom: 0;
+	left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
+	width: var(--width, calc(100% / var(--items)));
+	--index: 0;
+}
+.links > a:hover ~ .line {
+	opacity: 1;
+}
+
+.links > a:nth-of-type(1):hover ~ .line { --index: 1; }
+.links > a:nth-of-type(2):hover ~ .line { --index: 2; }
+.links > a:nth-of-type(3):hover ~ .line { --index: 3; }
+.links > a:nth-of-type(4):hover ~ .line { --index: 4; }
+.links > a:nth-of-type(5):hover ~ .line { --index: 5; }
+.links > a:nth-of-type(6):hover ~ .line { --index: 6; }
+.links > a:nth-of-type(7):hover ~ .line { --index: 7; }
+.links > a:nth-of-type(8):hover ~ .line { --index: 8; }
+.links > a:nth-of-type(9):hover ~ .line { --index: 9; }
+.links > a:nth-of-type(10):hover ~ .line { --index: 10; }
+.links > a:last-of-type:hover ~ .line { --index: var(--items); }
