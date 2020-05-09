@@ -3,34 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
-/*section{
-    width: 100%;
-    height: 100vh;
-    color: #fff;
-    background: rgb(2, 0, 26);
-    background: linear-gradient(-45deg,
-    #2bb5bd,
-    #2196a8,
-    #1f8fa3,
-    #1a8099,
-    #177894,
-    #14708f,
-    #12698a,
-    #0f6185,
-    #0d5980,
-    #0a527a,
-    #084a75,
-    #054270,
-    #03345f,
-#001d3a);
-    background-size: 400% 400%;
-    position: relative;
-    animation: change 30s;
-    animation-iteration-count: infinite;
-}*/
 
 span.wave {
     animation-name: wave-animation;
@@ -69,6 +42,7 @@ span.wave {
 }
 
 .introduction .first_line{
+    vertical-align: middle;
     font-size: 25pt;
     animation: type 2s;
 }
@@ -103,13 +77,16 @@ span.wave {
 }
 
 .middle{
-    opacity: 1;
+    opacity: 0;
     margin: 0;
     padding: 0;
     position: relative;
     top: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: type 2s;
+    animation-delay: 3.75s;
+    animation-fill-mode: forwards;
 }
 
 .btn{
