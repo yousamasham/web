@@ -36,13 +36,13 @@ span.wave {
 }
 
 .introduction{
+    top: 100px;
     font-size: 40pt;
     text-align: center;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
 }
 
 .introduction .first_line{
-    vertical-align: middle;
     font-size: 25pt;
     animation: type 2s;
 }
@@ -63,7 +63,6 @@ span.wave {
 }
 
 .introduction .fourth_line{
-    position: relative;
     opacity: 0;
     font-size: 25pt;
     animation: type 2s;
