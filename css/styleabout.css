@@ -11,9 +11,9 @@ body{
     text-align: center;
  }
 
-body {
+ body {
 	background-color: #345;
-	background-image: linear-gradient(to bottom, #0009, transparent);
+	background-image: linear-gradient(to bottom, #123, transparent);
 	color: #eee;
 	font-family: 'Lato', sans-serif;
 	font-size: 62.5%;
