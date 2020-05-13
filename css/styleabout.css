@@ -7,7 +7,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, li, ol, ul, pre {
 html, body { min-height: 100%; }
 
 body{
-    font-family: "Dosis",sans-serif;
+    font-family: "Candara,Calibri", "Segoe,Segoe UI" , "Optima", "Arial", "sans-serif"; 
     text-align: center;
  }
 
@@ -188,19 +188,30 @@ body{
     left: 30px;
 }
 
-.pic img{
+.pic {
     border-radius: 50%;
-    margin-top: 150px;
-    margin-right: 10%;
-    height: 300px;
-    width: 300px;
-    float: right;
+    margin: 20px 20px;
+    height: 250px;
+    width: 250px;
     border: 5px solid #00B3B3;
-    -webkit-transition: margin 0.5s ease-out;
-    -moz-transition: margin 0.5s ease-out;
-    -o-transition: margin 0.5s ease-out;
+    transition: margin 0.5s ease-in-out;
 }
 
-img:hover{
-    margin-top: 140px;
+.pic:hover{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.text{
+    text-align: center;
+    font-size: x-large;
+    margin: 1em 2em;
+    border: 2px solid #00B3B3;
+    padding: 30px;
+}
+
+.text p{
+    margin-top: 25px;
+    margin-right: 50px;
+    font-size: large;
 }
