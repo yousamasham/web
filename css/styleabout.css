@@ -187,3 +187,20 @@ body{
     text-align: center;
     left: 30px;
 }
+
+.pic img{
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-right: 10%;
+    height: 300px;
+    width: 300px;
+    float: right;
+    border: 5px solid #00B3B3;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+img:hover{
+    margin-top: 140px;
+}

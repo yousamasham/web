@@ -40,7 +40,8 @@ span.wave {
     top: 100px;
     font-size: 40pt;
     text-align: center;
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-family: "Candara,Calibri", "Segoe,Segoe UI" , "Optima", "Arial", "sans-serif"; 
+    /*font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;*/
 }
 
 .introduction .first_line{
@@ -86,7 +87,7 @@ span.wave {
     left: 50%;
     transform: translate(-50%, -50%);
     animation: type 2s;
-    animation-delay: 3.75s;
+    animation-delay: 2.75s;
     animation-fill-mode: forwards;
 }
 
