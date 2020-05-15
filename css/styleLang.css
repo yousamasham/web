@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato:300,400,700');
+
+html, body, h1, h2, h3, h4, h5, h6, p, li, ol, ul, pre {
+	margin: 0;
+	padding: 0;
+}
+html, body { min-height: 100%; }
+
+body{
+    /*font-family: "Candara,Calibri", "Segoe,Segoe UI" , "Optima", "Arial", "sans-serif";*/
+    text-align: center;
+ }
+
+ body {
+	background-color: #345;
+	background-image: linear-gradient(to bottom, #123, transparent);
+	color: #eee;
+	font-family: 'Lato', sans-serif;
+	font-size: 62.5%;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+ 
+ #menu {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -75px 0 0 -75px;
+    list-style: none;
+    font-size: 200%;
+ }
+ 
+ .menu-button {
+     opacity: 0;
+     z-index: -1;
+ }
+ 
+ .menu-button {
+     width: 150px;
+     height: 150px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     margin: -75px 0 0 -75px;
+     border-radius: 50%;
+     background: #424242;
+     background-size: 100%;
+     overflow: hidden;
+     text-decoration: none;
+ }
+ 
+ #menu:not(:target)>a:first-of-type,
+ #menu:target>a:last-of-type {
+     opacity: 1;
+     z-index: 1;
+ }
+ 
+ #menu:not(:target)>.icon-plus:before,
+ #menu:target>.icon-minus:before {
+     opacity: 1;
+ }
+ 
+ .menu-item {
+     width: 70px;
+     height: 70px;
+     position: absolute;
+     left: 55%;
+     line-height: 5px;
+     top: 50%;
+     margin: -50px 0 0 -50px;
+     border-radius: 50%;
+     background-color: #424242;
+     transform: translate(0px, 0px);
+     transition: transform 500ms;
+     z-index: -2;
+     transition: .5s;
+ }
+ 
+ .menu-item:hover{
+ opacity: 0.5;
+   box-shadow: 0 5px 10px black; 
+ }
+ 
+ 
+ .menu-item a {
+     color: #fff;
+     position: relative;
+     top: 30%;
+     left: 0;
+     text-decoration: none;
+ }
+ 
+ #menu:target>.menu-item:nth-child(6) {
+     transform: rotate(60deg) translateY(-150px) rotate(300deg);
+     transition-delay: 0s;
+ }
+ 
+ #menu:target>.menu-item:nth-child(5) {
+     transform: rotate(20deg) translateY(-155px) rotate(-20deg);
+     transition-delay: 0.1s;
+ }
+ 
+ #menu:target>.menu-item:nth-child(3) {
+     transform: rotate(-20deg) translateY(-155px) rotate(20deg);
+     transition-delay: 0.2s;
+ }
+ 
+ #menu:target>.menu-item:nth-child(4) {
+     transform: rotate(-60deg) translateY(-150px) rotate(60deg);
+     transition-delay: 0.3s;
+ }
+ 
+ .content{
+   position: absolute;
+   text-align: center;
+   margin: -10px 0 0 -30px;
+   top: 70%;
+   left: 50%;
+   font-size: 20px;
+ }
+
+ .links {
+	background-color: #123;
+	background-image: linear-gradient(to bottom, #0003, transparent);
+	border-bottom: 1px solid #0003;
+	box-shadow: 0 0 32px #0003;
+	font-size: 2em;
+	font-weight: 300;
+}
+.links > a {
+	color: #9ab;
+	padding: .75em;
+	text-align: center;
+	text-decoration: none;
+	transition: all .5s;
+}
+.links > a:hover {
+	background: #ffffff06;
+	color: #adf;
+}
+.links > .line {
+	background: #68a;
+	height: 1px;
+	pointer-events: none;
+}
+
+/* The Magic */
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.links {
+	display: grid;
+	grid-template-columns: repeat(var(--items), 1fr);
+	position: relative;
+}
+.links > .line {
+	opacity: 0;
+	transition: all .5s;
+	position: absolute;
+	bottom: 0;
+	left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
+	width: var(--width, calc(100% / var(--items)));
+	--index: 0;
+}
+.links > a:hover ~ .line {
+	opacity: 1;
+}
+
+.links > a:nth-of-type(1):hover ~ .line { --index: 1; }
+.links > a:nth-of-type(2):hover ~ .line { --index: 2; }
+.links > a:nth-of-type(3):hover ~ .line { --index: 3; }
+.links > a:nth-of-type(4):hover ~ .line { --index: 4; }
+.links > a:nth-of-type(5):hover ~ .line { --index: 5; }
+.links > a:nth-of-type(6):hover ~ .line { --index: 6; }
+.links > a:nth-of-type(7):hover ~ .line { --index: 7; }
+.links > a:nth-of-type(8):hover ~ .line { --index: 8; }
+.links > a:nth-of-type(9):hover ~ .line { --index: 9; }
+.links > a:nth-of-type(10):hover ~ .line { --index: 10; }
+.links > a:last-of-type:hover ~ .line { --index: var(--items); }
+
+.heading{
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    margin-top: 2em;
+    padding: 2em;
+}
+
+.langIconsB{
+    transform: scale(4);
+    margin: 1em 5em;
+    float: left;
+}
+
+.langIconsB:hover{
+    text-shadow: 0 0 5px #00B3B3;
+}
