@@ -184,19 +184,52 @@ body{
 .links > a:last-of-type:hover ~ .line { --index: var(--items); }
 
 .heading{
+    margin-top: 1em;
+    margin-bottom: 1em;
     text-align: center;
-    font-size: large;
-    width: 100%;
-    margin-top: 2em;
-    padding: 2em;
+    font-size: medium;
 }
 
-.langIconsB{
-    transform: scale(4);
-    margin: 1em 5em;
-    float: left;
+.langs{
+    float: center;
+    font-size: 110pt;
 }
 
-.langIconsB:hover{
-    text-shadow: 0 0 5px #00B3B3;
+.python:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.java:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.c:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.html:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.css:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.sheading{
+    margin-top: 5em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: medium;
+}
+
+.git:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.linux:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.vs:hover{
+    text-shadow: 0 0 10px #00B3B3;
 }

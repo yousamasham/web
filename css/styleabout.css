@@ -198,7 +198,6 @@ body{
 }
 
 .pic:hover{
-    cursor: pointer;
     margin-top: 10px;
 }
 
@@ -212,6 +211,5 @@ body{
 
 .text p{
     margin-top: 25px;
-    margin-right: 50px;
     font-size: large;
 }
