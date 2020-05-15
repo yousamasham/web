@@ -233,3 +233,7 @@ body{
 .vs:hover{
     text-shadow: 0 0 10px #00B3B3;
 }
+
+.atom:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
