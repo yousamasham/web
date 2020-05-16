@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1"; charset="UTF-8">
+    <title>Yousam Asham | Software and Biomedical Engineer</title>
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="css/styleLang.css" type="text/css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" type="text/css">
+        <nav class="links" style="--items: 5;">
+            <a href="./index.html">Yousam Asham</a>
+            <a href="./about">About Me</a>
+            <a href="#">Software Projects</a>
+            <a href="#">Biomedical Projects</a>
+            <a href="./lang">Languages & Tools</a>
+            <span class="line"></span>
+        </nav>
+    </header>
+    <body>
+        <div class="heading">
+            <h1>Some of the languages I know.</h1>
+        </div>
+        <div class="langs">
+            <i class="python devicon-python-plain-wordmark colored"></i>
+            <i class="java devicon-java-plain-wordmark colored"></i>
+            <i class="c devicon-c-plain colored"></i>
+            <i class="html devicon-html5-plain-wordmark colored"></i>
+            <i class="css devicon-css3-plain-wordmark colored"></i>
+        </div>
+        <div class="sheading">
+            <h1>Tools I work with...</h1>
+        </div>
+        <div class="langs">
+            <i class="git devicon-git-plain-wordmark colored"></i>
+            <i class="linux devicon-debian-plain-wordmark colored"></i>
+            <i class=" vs devicon-visualstudio-plain-wordmark"></i>
+            <i class="atom devicon-atom-original-wordmark"></i>
+        </div>
+    </body>
+</html>
