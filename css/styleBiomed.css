@@ -181,4 +181,69 @@ body{
 .links > a:nth-of-type(8):hover ~ .line { --index: 8; }
 .links > a:nth-of-type(9):hover ~ .line { --index: 9; }
 .links > a:nth-of-type(10):hover ~ .line { --index: 10; }
-.links > a:last-of-type:hover ~ .line { --index: var(--items); }
+.links > a:last-of-type:hover ~ .line { --index: var(--items);}
+
+.heading{
+    margin-top: 0.25em;
+    text-align: center;
+    font-size: 40pt;
+}
+
+.project{
+    float: left;
+    height: 500px;
+    width: 530px;
+    margin: 20px 55px;
+    border: 5px solid #00B3B3;
+}
+
+.project h2{
+    font-size: 30pt;
+}
+
+.project h3{
+    padding: 10px;
+    font-size: 15pt;
+}
+
+.project p{
+    padding: 15px;
+    font-size: large;
+    font-weight: 100;
+}
+
+.project h4{
+    font-size: medium;
+}
+
+.tools{
+    font-weight: 100;
+}
+
+.btn{
+    text-decoration: none;
+    float: none;
+    height: 20px;
+    width: 120px;
+    position: block;
+    background-color: #00B3B3;
+    display: inline-block;
+    color: black;
+}
+
+.btn:hover{
+    color: #00B3B3;
+    background-color: white;
+}
+
+#bp1{
+    margin: 15px;
+    height: 185px;
+    width: auto;
+}
+
+#bp2{
+    margin: 15px;
+    height: 185px;
+    width: auto;
+}
