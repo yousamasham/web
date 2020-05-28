@@ -219,6 +219,34 @@ body{
     font-size: medium;
 }
 
+/*.sproject{
+    float: left;
+    height: 350px;
+    width: 530px;
+    margin: 20px 55px;
+    border: 5px solid #00B3B3;
+    position: flex;
+}
+
+.sproject h2{
+    font-size: 30pt;
+}
+
+.sproject h3{
+    padding: 10px;
+    font-size: 15pt;
+}
+
+.sproject p{
+    padding: 15px;
+    font-size: large;
+    font-weight: 100;
+}
+
+.sproject h4{
+    font-size: medium;
+}*/
+
 .tools{
     font-weight: 100;
 }
@@ -247,5 +275,5 @@ body{
 }
 
 #sp1:hover{
-    transform: scale(1.75);
+    transform: scale(1.5);
 }
