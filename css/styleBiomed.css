@@ -198,6 +198,7 @@ body{
     width: 530px;
     margin: 20px 55px;
     border: 5px solid #00B3B3;
+    position: flex;
 }
 
 .project h2{
