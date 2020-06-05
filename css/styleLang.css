@@ -215,6 +215,10 @@ body{
     text-shadow: 0 0 10px #00B3B3;
 }
 
+.swift:hover{
+	text-shadow: 0 0 10px #00B3B3
+}
+
 .sheading{
     margin-top: 5em;
     margin-bottom: 1em;
