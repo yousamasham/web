@@ -192,13 +192,19 @@ body{
     margin-bottom: 1.25em;
 }
 
-.project{
-    float: left;
-    height: 520px;
-    width: 530px;
-    margin: 20px 55px;
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container div{
     border: 5px solid #00B3B3;
-    position: flex;
+    margin-bottom: 10px;
+}
+
+.project{
+    width: 40%;
 }
 
 .project h2{
@@ -281,5 +287,10 @@ body{
 }
 
 #bp4:hover{
-    transform: scale(1.75);
+    transform: scale(1.5);
 }
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
