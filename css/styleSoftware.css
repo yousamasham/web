@@ -256,3 +256,14 @@ body{
 #sp1:hover{
     transform: scale(1.5);
 }
+
+#sp4{
+    margin: 15px;
+    height: 185px;
+    width: auto;
+    transition: transform .2s;
+}
+
+#sp4:hover{
+    transform: scale(1.5);
+}
