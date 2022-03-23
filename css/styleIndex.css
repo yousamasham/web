@@ -200,7 +200,7 @@ body {
 	position: absolute;
 	bottom: 0;
 	left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
-	width: var(--width, calc(100% / var(--items)));
+	/*width: var(--width, calc(100% / var(--items)));*/
 	--index: 0;
 }
 .links > a:hover ~ .line {
