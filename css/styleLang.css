@@ -199,6 +199,34 @@ body{
     text-shadow: 0 0 10px #00B3B3;
 }
 
+.groovy:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.jenkins:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.dotnet:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.vscode:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.vs:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.nuget:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
+.cs:hover{
+    text-shadow: 0 0 10px #00B3B3;
+}
+
 .java:hover{
     text-shadow: 0 0 10px #00B3B3;
 }
