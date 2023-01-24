@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!--meta name="viewport" content="width=device-width, initial-scale=1"; charset="UTF-8"-->
     <meta name="viewport" content="width=1000" />
     <title>Yousam Asham | Software and Biomedical Engineer</title>
     <link rel="shortcut icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="css/styleIndex.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,500,600,800' rel='stylesheet'>
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167062065-1"></script>
+        <script src="js/index.js"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'UA-167062065-1');
+        </script>
+
+        <script>
+            var button = document.getElementsByClassName("btn btn4"); // Assumes element with id='button'
+
+            button.onclick = function() {
+                var div = document.getElementsById("myResume");
+                if (div.style.display !== 'none') {
+                    div.style.display = 'none';
+                }
+                else {
+                    div.style.display = 'block';
+                }
+            };
         </script>
     </head>
     <header>
@@ -49,12 +64,16 @@
                         <div class="fa fa-envelope fa-2x"></div>
                     </div>
                     Email me</button></a>
-                <a target = "blank" href="./Resume/YousamAshamResume.pdf" download class = "btn btn4">
+                <a class = "btn btn4" onclick="toggleResume()">
                     <div class="container">
                         <div class="fa fa-file fa-2x"></div>
                     </div>
-                    Resume</button></a>
+                    Resume</a>
             </div>
+        </div>
+
+        <div class = "ResumeViewer" id = "rv">
+            <iframe id = "myResume" src = "./Resume/YousamAshamResume.pdf" frameborder="0"></iframe>
         </div>
     </body>
 </html>
