@@ -1,0 +1,13 @@
+{
+    "education":[
+        {
+            "title": "Sep 2018 - Apr 2024",
+            "cardTitle": "Software & Biomedical Engineering, B.Eng.BME",
+            "cardSubtitle":"McMaster University, Hamilton ON",
+            "cardDetailedText": "cGPA - 3.9",
+            "icon" : {
+                "src": "images/education/mcmaster.png"
+            }
+        }
+    ]
+}

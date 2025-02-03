@@ -1,0 +1,100 @@
+{
+    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "skills": [{
+     
+            "title": "Languages & Databases",
+            "items" : [
+                
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/csharp.svg",
+                    "title": "C#"
+                },
+                {
+                    "icon": "images/skills/java.png",
+                    "title": "Java"
+                },
+                {
+                    "icon": "images/skills/c.png",
+                    "title": "C"
+                },
+                {
+                    "icon": "images/skills/typescript.png",
+                    "title": "TypeScript"
+                },
+                {
+                    "icon": "images/skills/azsql.svg",
+                    "title": "Azure SQL"
+                },
+                {
+                    "icon": "images/skills/helm.png",
+                    "title": "Helm"
+                },
+                {
+                    "icon": "images/skills/sass.png",
+                    "title": "Sass"
+                },
+                {
+                    "icon": "images/skills/matlab.png",
+                    "title": "Matlab"
+                }
+                
+        ]},
+        {
+            "title": "Frameworks & Technologies",
+            "items" : [
+                {
+                    "icon": "images/skills/dotnet.png",
+                    "title": ".NET"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/powerbi.png",
+                    "title": "Power BI"
+                },
+                {
+                    "icon": "images/skills/dapr-logo.svg",
+                    "title": "Dapr"
+                },
+                {
+                    "icon": "images/skills/keda.png",
+                    "title": "KEDA"
+                }
+            ]
+        },
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/azure.png",
+                    "title": "Azure"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/atlassian.png",
+                    "title": "Confluence/Jira"
+                },
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/jenkins.png",
+                    "title": "Jenkins"
+                },
+                {
+                    "icon": "images/skills/ucd.png",
+                    "title": "UrbanCode Deploy"
+                }
+            ]
+    }
+]}

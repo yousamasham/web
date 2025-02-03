@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://linkedin.com/in/yousamasham"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/yousamasham"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:yousamasham011@gmail.com"
+        }
+    ]
+}

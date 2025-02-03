@@ -1,0 +1,71 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/capstone.png",
+            "title": "SegSlicer",
+            "bodyText": "**AI driven PET-CT image segmentation and benchmarking platform.**\n\nThis was my final engineering capstone project. My group and I were tasked to come up with a new machine learning segmentation model that outperforms the current gold standard models that are MedSAM, SAM, and SAMMed2D when it comes to Head and Neck cancers.\n\nAfter various design iterations, numerous trained models, and many many more UI wireframes, SegSlicer was created. SegSlicer is a solution for PET-CT image segmentation, benchmarking, and tumor volume reconstruction that can aid with Head and Neck cancer diagnosis as well as treatment.",
+            "links": [
+                {
+                    "text": "Full Size Poster",
+                    "href": "./images/projects/capstone.png"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Numpy",
+                "TensorFlow",
+                "CUDA",
+                "Statistical Analysis"
+            ]
+        },
+        {
+            "image" : "images/projects/bp5.png",
+            "title": "SA(C)LT",
+            "bodyText": "**A rehabilitative biomedical device used to help athletes with their return to sport following ACL reconstruction surgery.**\n\nSA(c)LT (short for Socks for ACL Tears) is a biomedical device built to aid athletes with their return to sport. The device is mounted onto socks that are worn by the atheletes as they perform the hop test, a terminal rehabilitation stage test for patients who undergo ACL reconstruction surgery.\n\nUsing an accelorometer, a gyroscope, and force sensors the LSI is calculated and sent to the user's phone over Bluetooth. SA(c)LT also provides its user with progression indications along the rehabilitation journey.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yousamasham/SA-c-LT"
+                }
+            ],
+            "tags" : [
+                "Arduino",
+                "C++",
+                "Sensors",
+                "Embedded Systems"
+            ]
+        },
+        {
+            "image" : "images/projects/sp1.jpg",
+            "title": "FilTrack",
+            "bodyText": "**A web application to explore music based on preference.**\n\nFilTrack is the solution for finding the perfect music based on user’s mood without spending hours going through generic playlists. All the user needs to do is select criteria based on their mood (high tempo, liveliness etc.) and FilTrack will filter through the Million Song Database to find the personalized best fit tracks for the user.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yousamasham/Filtrack"
+                }
+            ],
+            "tags" : [
+                "Java",
+                "OOP",
+                "Algorithm Design",
+                "Web Development"
+            ]
+        },
+        {
+            "image" : "images/projects/imageconvproj.jpg",
+            "title": "Image Convolution",
+            "bodyText": "**A C program made to manipulate and convolute images.** Made up of many different modules, this app takes in two text file inputs; the first file is an image, and the other is the kernel to be used for convolution.\n\nIt then outputs the convolved image as a file.\n\nSample kernels include sharpening, deblurring, and edge detection kernels.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/yousamasham/ImageConvolution"
+                }
+            ],
+            "tags" : [
+                "C",
+                "Image Processing"
+            ]
+        }
+    ]
+}

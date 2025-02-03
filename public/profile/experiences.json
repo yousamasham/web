@@ -1,0 +1,34 @@
+{
+    "experiences": [
+        {
+            "title": "Associate Software Developer",
+            "subtitle": "Ontario Teachers' Pension Plan",
+            "workType": "Full-time",
+            "workDescription": [
+                "Assist product teams in migrating on-premises applications to the cloud.",
+                "Develop and roll out cloud standards and integrations for secret retrieval, configuration management, messaging, all using helm charts.",
+                "Lead development and release of an asynchronous processing pattern using **KEDA** and **Dapr** to enable autoscaling and event-driven architecture. This allows for on demand microservices that **scale to 0** when not needed."
+            ],
+            "dateText": "05/2024 – Present"
+        },
+        {
+            "title": "Software Developer Intern",
+            "subtitle": "Ontario Teachers' Pension Plan",
+            "workType": "Internship",
+            "workDescription": [
+                "Design and implement new processes and enhancements to optimize CI/CD pipelines & delivery infrastructure.",
+                "Aid in automating DB refresh process to involve **0 manual steps**, including scheduling refreshes aligned to release & sprint cadence."
+            ],
+            "dateText": "05/2021 – 05/2024"
+        },
+        {
+            "title": "Technical Lead Assistant Intern",
+            "subtitle": "Honeywell",
+            "workType": "Internship",
+            "workDescription": [
+                
+            ],
+            "dateText": "01/2021 – 05/2021"
+        }
+    ]
+}
